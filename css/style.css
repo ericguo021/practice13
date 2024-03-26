@@ -1,0 +1,49 @@
+body {
+    display: flex;
+    flex-basis: auto;
+}
+
+
+header {
+    border: 1px solid black;
+    height: 500px;
+    margin-right: 10px;
+    background-color: yellow;
+    width: 20%;
+}
+
+
+
+main {
+    height: 500px;
+    width: 60%;
+    display:flex;
+    flex-direction: column;
+    justify-content: space-around;
+
+}
+
+#sec1, #sec2 {
+    border: 1px solid black;
+}
+
+
+#sec1 { 
+    background-color: lightblue;
+    height: 50%;
+    margin-bottom: 5px;
+}
+
+#sec2 { 
+    background-color: grey;
+    height: 50%;
+    margin-top: 5px;
+}
+
+footer {
+    border: 1px solid black;
+    height: 500px;
+    margin-left: 10px;
+    background-color: pink;
+    width: 20%;
+}
